@@ -18,7 +18,7 @@ namespace GeekBurger.Productions.Controllers
 
             this.Productions.Add(new Production() {
                 ProductionId = new Guid("abcfa5f5-5af2-44c8-87a0-f58f3a3c6a08"),
-                Restrictions = new List<string>() { "tomate", "potatoes", "onions" },
+                Restrictions = new List<string>() { "tomatoes", "potatoes", "onions" },
                 On = true
             });
 
